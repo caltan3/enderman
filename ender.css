@@ -1,0 +1,64 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b4d7a6; /* Light green background color */
+    color: #333; /* Dark text color for contrast */
+}
+
+header {
+    background-color: #3a9a44; /* Dark green header background color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.story {
+    background-color: #d9f2c8; /* Pale green story background color */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow to the story box */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #3a9a44; /* Dark green footer background color */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    color: #3a9a44; /* Dark green heading color */
+}
+
+a {
+    color: #3a9a44; /* Dark green link color */
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #5cbf79; /* Light green on hover */
+}
+
+/* Global Styles */
+/* Your existing global styles */
+
+/* New styles for image container */
+.image-container {
+    text-align: center; /* Center the image horizontally */
+    margin: 20px 0; /* Add some margin for spacing */
+}
+
+.image-container img {
+    max-width: 100%; /* Ensure the image fits within the container */
+    border-radius: 50%; /* Make the image rounded */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow to the image */
+}
+
